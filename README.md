@@ -23,6 +23,8 @@ I’m Aethel Reborn — a developer and creator focused on building clean, usefu
 - 💬 Ask me about: coding, problem solving, dev workflows, and building better tools
 - 📫 Reach me: through GitHub or your preferred platform
 
+Website : https://aethelreborn.dpdns.org
+
 ## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
