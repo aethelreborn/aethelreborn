@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" fill="none">
+  <defs>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff9d"/>
+      <stop offset="100%" style="stop-color:#00d4ff"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="350" rx="16" fill="url(#card)" stroke="#1e2a3a" stroke-width="1"/>
+  <!-- Window dots -->
+  <circle cx="30" cy="25" r="5" fill="#ff5f57"/>
+  <circle cx="50" cy="25" r="5" fill="#ffbd2e"/>
+  <circle cx="70" cy="25" r="5" fill="#28c840"/>
+  <!-- Title -->
+  <text x="200" y="65" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="16" fill="#8892b0">about.ts</text>
+  <!-- Code content -->
+  <text x="25" y="100" font-family="'Cascadia Code','Fira Code',monospace" font-size="13">
+    <tspan fill="#c792ea">const</tspan><tspan fill="#82aaff"> aethelReborn</tspan><tspan fill="#89ddff"> =</tspan><tspan fill="#89ddff"> {</tspan>
+    <tspan x="40" dy="22"><tspan fill="#f78c6c">name</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Aethel Reborn"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="40" dy="22"><tspan fill="#f78c6c">role</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Software Engineer"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="40" dy="22"><tspan fill="#f78c6c">focus</tspan><tspan fill="#89ddff">: [</tspan></tspan>
+    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Web Dev"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Automation"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Product"</tspan></tspan>
+    <tspan x="40" dy="22"><tspan fill="#89ddff">],</tspan></tspan>
+    <tspan x="40" dy="22"><tspan fill="#f78c6c">motto</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Build. Learn. Ship."</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="40" dy="22"><tspan fill="#f78c6c">available</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">true</tspan></tspan>
+    <tspan x="25" dy="22"><tspan fill="#89ddff">};</tspan></tspan>
+  </text>
+  <!-- Blinking cursor -->
+  <rect x="63" y="310" width="8" height="16" fill="#00ff9d" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
