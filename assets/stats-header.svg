@@ -1,14 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" fill="none">
   <defs>
-    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d4ff"/>
-      <stop offset="100%" style="stop-color:#7b61ff"/>
+    <linearGradient id="s" x1="120" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#c9a84c" stop-opacity="0.6"/>
+      <stop offset="0.8" stop-color="#c9a84c" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
     </linearGradient>
-    <filter id="gl2">
-      <feGaussianBlur stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="url(#sg)" filter="url(#gl2)">STATS</text>
-  <rect x="145" y="42" width="110" height="2" rx="1" fill="url(#sg)" opacity="0.6"/>
+  <text x="200" y="30" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#c9a84c" letter-spacing="3.5">STATS</text>
+  <rect x="160" y="38" width="80" height="0.5" fill="url(#s)"/>
 </svg>

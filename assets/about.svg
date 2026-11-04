@@ -1,41 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" fill="none">
   <defs>
-    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#161b22"/>
+    <linearGradient id="card" x1="0" y1="0" x2="420" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12121e"/>
+      <stop offset="1" stop-color="#181828"/>
     </linearGradient>
-    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00ff9d"/>
-      <stop offset="100%" style="stop-color:#00d4ff"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9a84c" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#c9a84c" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#c9a84c" stop-opacity="0.3"/>
     </linearGradient>
-    <filter id="glow3">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-  <rect width="400" height="350" rx="16" fill="url(#card)" stroke="#1e2a3a" stroke-width="1"/>
-  <!-- Window dots -->
-  <circle cx="30" cy="25" r="5" fill="#ff5f57"/>
-  <circle cx="50" cy="25" r="5" fill="#ffbd2e"/>
-  <circle cx="70" cy="25" r="5" fill="#28c840"/>
-  <!-- Title -->
-  <text x="200" y="65" text-anchor="middle" font-family="'Cascadia Code',monospace" font-size="16" fill="#8892b0">about.ts</text>
-  <!-- Code content -->
-  <text x="25" y="100" font-family="'Cascadia Code','Fira Code',monospace" font-size="13">
-    <tspan fill="#c792ea">const</tspan><tspan fill="#82aaff"> aethelReborn</tspan><tspan fill="#89ddff"> =</tspan><tspan fill="#89ddff"> {</tspan>
-    <tspan x="40" dy="22"><tspan fill="#f78c6c">name</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Aethel Reborn"</tspan><tspan fill="#89ddff">,</tspan></tspan>
-    <tspan x="40" dy="22"><tspan fill="#f78c6c">role</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Software Engineer"</tspan><tspan fill="#89ddff">,</tspan></tspan>
-    <tspan x="40" dy="22"><tspan fill="#f78c6c">focus</tspan><tspan fill="#89ddff">: [</tspan></tspan>
-    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Web Dev"</tspan><tspan fill="#89ddff">,</tspan></tspan>
-    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Automation"</tspan><tspan fill="#89ddff">,</tspan></tspan>
-    <tspan x="55" dy="22"><tspan fill="#c3e88d">"Product"</tspan></tspan>
-    <tspan x="40" dy="22"><tspan fill="#89ddff">],</tspan></tspan>
-    <tspan x="40" dy="22"><tspan fill="#f78c6c">motto</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"Build. Learn. Ship."</tspan><tspan fill="#89ddff">,</tspan></tspan>
-    <tspan x="40" dy="22"><tspan fill="#f78c6c">available</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">true</tspan></tspan>
-    <tspan x="25" dy="22"><tspan fill="#89ddff">};</tspan></tspan>
+  <rect width="420" height="380" rx="12" fill="url(#card)" stroke="#2a2a3e" stroke-width="1"/>
+  <rect x="0" y="0" width="420" height="2.5" rx="1.25" fill="url(#bar)"/>
+  <circle cx="28" cy="30" r="4.5" fill="#3a3a4e"/>
+  <circle cx="46" cy="30" r="4.5" fill="#3a3a4e"/>
+  <circle cx="64" cy="30" r="4.5" fill="#3a3a4e"/>
+  <text x="210" y="35" text-anchor="middle" font-family="'Cascadia Code','Fira Code',monospace" font-size="12" fill="#5a5a6e">aethel.ts</text>
+  <rect x="0" y="50" width="420" height="0.5" fill="#2a2a3e"/>
+  <text x="24" y="84" font-family="'Cascadia Code','Fira Code','JetBrains Mono',monospace" font-size="12.5">
+    <tspan fill="#555568">01</tspan><tspan fill="#c792ea" dx="10">const</tspan><tspan fill="#82aaff" dx="5">dev</tspan><tspan fill="#89ddff" dx="3">=</tspan><tspan fill="#89ddff" dx="3">{</tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">02</tspan><tspan fill="#f78c6c" dx="10">name</tspan><tspan fill="#89ddff" dx="3">:</tspan><tspan fill="#c3e88d" dx="6">"Aethel Reborn"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">03</tspan><tspan fill="#f78c6c" dx="10">role</tspan><tspan fill="#89ddff" dx="3">:</tspan><tspan fill="#c3e88d" dx="6">"Full Stack Developer"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">04</tspan><tspan fill="#f78c6c" dx="10">stack</tspan><tspan fill="#89ddff" dx="3">:</tspan><tspan fill="#89ddff" dx="6">[</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">05</tspan><tspan fill="#c3e88d" dx="24">"TypeScript"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">06</tspan><tspan fill="#c3e88d" dx="24">"React"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">07</tspan><tspan fill="#c3e88d" dx="24">"Node.js"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">08</tspan><tspan fill="#c3e88d" dx="24">"Python"</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">09</tspan><tspan fill="#c3e88d" dx="24">"PostgreSQL"</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">10</tspan><tspan fill="#89ddff" dx="14">],</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">11</tspan><tspan fill="#f78c6c" dx="10">motto</tspan><tspan fill="#89ddff" dx="3">:</tspan><tspan fill="#c3e88d" dx="6">"Build. Learn. Ship."</tspan><tspan fill="#89ddff">,</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">12</tspan><tspan fill="#f78c6c" dx="10">openToWork</tspan><tspan fill="#89ddff" dx="3">:</tspan><tspan fill="#ffcb6b" dx="6">true</tspan></tspan>
+    <tspan x="24" dy="22"><tspan fill="#555568">13</tspan><tspan fill="#89ddff" dx="10">};</tspan></tspan>
   </text>
-  <!-- Blinking cursor -->
-  <rect x="63" y="310" width="8" height="16" fill="#00ff9d" opacity="0.9">
-    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="42" y="362" width="6" height="1.5" fill="#c9a84c" opacity="0.5"/>
 </svg>

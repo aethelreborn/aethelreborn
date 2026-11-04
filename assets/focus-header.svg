@@ -1,14 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" fill="none">
   <defs>
-    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7b61ff"/>
-      <stop offset="100%" style="stop-color:#00ff9d"/>
+    <linearGradient id="f" x1="100" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#c9a84c" stop-opacity="0.6"/>
+      <stop offset="0.8" stop-color="#c9a84c" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
     </linearGradient>
-    <filter id="gl3">
-      <feGaussianBlur stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-  <text x="200" y="35" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="url(#fg)" filter="url(#gl3)">CURRENT FOCUS</text>
-  <rect x="105" y="42" width="190" height="2" rx="1" fill="url(#fg)" opacity="0.6"/>
+  <text x="200" y="30" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#c9a84c" letter-spacing="3.5">CURRENT FOCUS</text>
+  <rect x="125" y="38" width="150" height="0.5" fill="url(#f)"/>
 </svg>

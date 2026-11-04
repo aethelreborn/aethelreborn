@@ -6,9 +6,9 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-00C7B7?style=flat-square&logo=googlechrome&logoColor=white)](https://aethelreborn.dpdns.org)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aethelreborn)
-[![Profile Views](https://komarev.com/ghpvc/?username=aethelreborn&label=Profile%20views&color=00d4ff&style=flat-square)](https://github.com/aethelreborn)
+[![Website](https://img.shields.io/badge/Website-c9a84c?style=flat-square&logo=googlechrome&logoColor=black)](https://aethelreborn.dpdns.org)
+[![GitHub](https://img.shields.io/badge/GitHub-2a2a3e?style=flat-square&logo=github&logoColor=c9a84c)](https://github.com/aethelreborn)
+[![Profile Views](https://komarev.com/ghpvc/?username=aethelreborn&label=Profile%20views&color=c9a84c&style=flat-square)](https://github.com/aethelreborn)
 
 </div>
 
@@ -61,28 +61,28 @@
   <tr>
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/Building-00FF9D?style=for-the-badge&logo=rocket&logoColor=black" /><br/><br/>
-        <img src="https://img.shields.io/badge/Personal%20Projects%20%26%20Dev%20Tools-1a1b2e?style=for-the-badge&color=0d1117" />
+        <img src="https://img.shields.io/badge/Building-c9a84c?style=for-the-badge&logo=rocket&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Personal%20Projects%20%26%20Dev%20Tools-2a2a3e?style=for-the-badge&color=12121e" />
       </div>
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/Learning-00D4FF?style=for-the-badge&logo=bookstack&logoColor=black" /><br/><br/>
-        <img src="https://img.shields.io/badge/Web%20Dev%20%7C%20Automation%20%7C%20Product-1a1b2e?style=for-the-badge&color=0d1117" />
+        <img src="https://img.shields.io/badge/Learning-d4b86c?style=for-the-badge&logo=bookstack&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Web%20Dev%20%7C%20Automation%20%7C%20Product-2a2a3e?style=for-the-badge&color=12121e" />
       </div>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/Exploring-7B61FF?style=for-the-badge&logo=telescope&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Scalable%20Systems%20%26%20Architecture-1a1b2e?style=for-the-badge&color=0d1117" />
+        <img src="https://img.shields.io/badge/Exploring-a08c3e?style=for-the-badge&logo=telescope&logoColor=white" /><br/><br/>
+        <img src="https://img.shields.io/badge/Scalable%20Systems%20%26%20Architecture-2a2a3e?style=for-the-badge&color=12121e" />
       </div>
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/Open%20For-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white" /><br/><br/>
-        <img src="https://img.shields.io/badge/Collaboration%20%26%20Open%20Source-1a1b2e?style=for-the-badge&color=0d1117" />
+        <img src="https://img.shields.io/badge/Open%20For-c9a84c?style=for-the-badge&logo=handshake&logoColor=black" /><br/><br/>
+        <img src="https://img.shields.io/badge/Collaboration%20%26%20Open%20Source-2a2a3e?style=for-the-badge&color=12121e" />
       </div>
     </td>
   </tr>
@@ -103,21 +103,21 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aethelreborn&show_icons=true&theme=midnight&hide_border=true&rank_icon=github&title_color=00ff9d&text_color=8892b0&icon_color=00d4ff&bg_color=0a0a1a" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=aethelreborn&show_icons=true&theme=midnight&hide_border=true&rank_icon=github&title_color=c9a84c&text_color=8a8a9a&icon_color=d4b86c&bg_color=0f0f1a" height="170" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aethelreborn&layout=compact&theme=midnight&hide_border=true&title_color=00d4ff&text_color=8892b0&bg_color=0a0a1a" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aethelreborn&layout=compact&theme=midnight&hide_border=true&title_color=c9a84c&text_color=8a8a9a&bg_color=0f0f1a" height="170" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aethelreborn&theme=react-dark&hide_border=true&area=true&point=00ff9d&line=00d4ff&bg_color=0a0a1a" width="800" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aethelreborn&theme=react-dark&hide_border=true&area=true&point=c9a84c&line=d4b86c&bg_color=0f0f1a" width="800" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aethelreborn&theme=midnight&hide_border=true&background=0a0a1a&stroke=00d4ff&ring=00ff9d&fire=00d4ff&currStreakLabel=00d4ff&sideLabels=8892b0" height="140" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aethelreborn&theme=midnight&hide_border=true&background=0f0f1a&stroke=c9a84c&ring=c9a84c&fire=d4b86c&currStreakLabel=c9a84c&sideLabels=8a8a9a" height="140" />
 </div>
 
 <br/>
@@ -147,6 +147,5 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/STAR_THIS_REPO-00FF9D?style=for-the-badge&logo=github&logoColor=black" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/NO_COPIES-FF6B6B?style=for-the-badge&logo=flame&logoColor=white" />
+  <sub>© 2026 Aethel Reborn · Built with clean code and purpose</sub>
 </div>
