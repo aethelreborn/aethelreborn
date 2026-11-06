@@ -1,12 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" fill="none">
-  <defs>
-    <linearGradient id="t" x1="80" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#c9a84c" stop-opacity="0.6"/>
-      <stop offset="0.8" stop-color="#c9a84c" stop-opacity="0.6"/>
-      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <text x="200" y="30" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#c9a84c" letter-spacing="3.5">TECH STACK</text>
-  <rect x="135" y="38" width="130" height="0.5" fill="url(#t)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" fill="none">
+  <rect width="300" height="40" fill="#0a0a0f"/>
+  <rect x="0" y="0" width="300" height="2" fill="#c9a84c" opacity="0.4"/>
+  <text x="10" y="28" font-family="monospace" font-size="14" fill="#c9a84c">// TECH STACK</text>
 </svg>

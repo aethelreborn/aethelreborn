@@ -1,16 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 50" fill="none">
-  <defs>
-    <linearGradient id="fl" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
-      <stop offset="0.3" stop-color="#c9a84c" stop-opacity="0.15"/>
-      <stop offset="0.7" stop-color="#c9a84c" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="24.5" width="1200" height="0.6" fill="url(#fl)"/>
-  <text x="600" y="31" text-anchor="middle" font-family="'Cascadia Code','Fira Code',monospace" font-size="13" fill="#5a5a6e">
-    <tspan fill="#c9a84c" fill-opacity="0.4">&lt;/&gt;</tspan>
-    <tspan dx="8">Built with care and caffeine</tspan>
-    <tspan fill="#c9a84c" fill-opacity="0.4" dx="8">&lt;/&gt;</tspan>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" fill="none">
+  <rect width="1200" height="60" fill="#0a0a0f"/>
+  <rect x="0" y="0" width="1200" height="1" fill="#c9a84c" opacity="0.4"/>
+  <text x="20" y="40" font-family="monospace" font-size="12" fill="#c9a84c">// END OF FILE</text>
+  <text x="700" y="40" font-family="monospace" font-size="12" fill="#8a8a9a">&copy; 2026 Aethel Reborn &bull; Full Stack Developer</text>
 </svg>

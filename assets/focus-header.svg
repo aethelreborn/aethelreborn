@@ -1,12 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" fill="none">
-  <defs>
-    <linearGradient id="f" x1="100" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#c9a84c" stop-opacity="0.6"/>
-      <stop offset="0.8" stop-color="#c9a84c" stop-opacity="0.6"/>
-      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <text x="200" y="30" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#c9a84c" letter-spacing="3.5">CURRENT FOCUS</text>
-  <rect x="125" y="38" width="150" height="0.5" fill="url(#f)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 40" fill="none">
+  <rect width="260" height="40" fill="#0a0a0f"/>
+  <rect x="0" y="0" width="260" height="2" fill="#c9a84c" opacity="0.4"/>
+  <text x="10" y="28" font-family="monospace" font-size="14" fill="#c9a84c">// CURRENT FOCUS</text>
 </svg>

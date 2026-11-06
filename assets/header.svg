@@ -1,39 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0f0f1a"/>
-      <stop offset="0.5" stop-color="#141428"/>
-      <stop offset="1" stop-color="#0f0f1a"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c9a84c" stop-opacity="0"/>
-      <stop offset="0.3" stop-color="#c9a84c" stop-opacity="0.5"/>
-      <stop offset="0.7" stop-color="#c9a84c" stop-opacity="0.5"/>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9a84c" stop-opacity="0.03"/>
+      <stop offset="0.5" stop-color="#c9a84c" stop-opacity="0.01"/>
       <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="name" x1="300" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#e8d5a3"/>
-      <stop offset="1" stop-color="#c9a84c"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="600" cy="140" r="350" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c9a84c" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#c9a84c" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="sh">
-      <feDropShadow dx="0" dy="1" stdDeviation="6" flood-color="#c9a84c" flood-opacity="0.12"/>
-    </filter>
   </defs>
-  <rect width="1200" height="280" rx="10" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="10" fill="url(#glow)"/>
-  <rect x="120" y="42" width="960" height="0.6" fill="url(#line)"/>
-  <rect x="120" y="238" width="960" height="0.6" fill="url(#line)"/>
-  <path d="M60 62 L60 82 M60 62 L80 62" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
-  <path d="M1140 62 L1140 82 M1140 62 L1120 62" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
-  <path d="M60 218 L60 198 M60 218 L80 218" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
-  <path d="M1140 218 L1140 198 M1140 218 L1120 218" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
-  <text x="600" y="132" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="5" fill="url(#name)" filter="url(#sh)">Aethel Reborn</text>
-  <rect x="430" y="150" width="340" height="0.5" fill="#c9a84c" opacity="0.25"/>
-  <text x="600" y="184" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="300" fill="#8a8a9a" letter-spacing="9">FULL STACK DEVELOPER</text>
-  <text x="600" y="216" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="300" fill="#5a5a6a" letter-spacing="2.5">Crafting digital experiences with clean code and purpose</text>
-  <rect x="597" y="232" width="6" height="6" rx="0.5" fill="#c9a84c" opacity="0.25" transform="rotate(45 600 235)"/>
+  <rect width="1200" height="300" fill="#0a0a0f"/>
+  <rect width="1200" height="300" fill="url(#scan)"/>
+  <rect x="40" y="40" width="2" height="220" fill="#c9a84c" opacity="0.5"/>
+  <rect x="40" y="40" width="220" height="2" fill="#c9a84c" opacity="0.5"/>
+  <rect x="40" y="260" width="220" height="2" fill="#c9a84c" opacity="0.5"/>
+  <rect x="1158" y="40" width="2" height="220" fill="#c9a84c" opacity="0.5"/>
+  <rect x="938" y="260" width="220" height="2" fill="#c9a84c" opacity="0.5"/>
+  <rect x="1158" y="260" width="2" height="220" fill="#c9a84c" opacity="0.5"/>
+  <text x="60" y="84" font-family="monospace" font-size="13" fill="#5a5a6a" letter-spacing="1">> cat /home/aethel/.profile</text>
+  <text x="60" y="114" font-family="monospace" font-size="13" fill="#8a8a9a" letter-spacing="1">role=full-stack-developer</text>
+  <text x="60" y="138" font-family="monospace" font-size="13" fill="#c9a84c" letter-spacing="2">AETHET REBORN</text>
+  <text x="60" y="162" font-family="monospace" font-size="14" fill="#c9a84c">dev &bull; builder &bull; breaker</text>
+  <rect x="60" y="182" width="640" height="2" fill="#c9a84c" opacity="0.2"/>
+  <text x="60" y="214" font-family="monospace" font-size="11" fill="#6a6a7a">stack: typescript . react . node.js . python . postgresql</text>
+  <text x="60" y="236" font-family="monospace" font-size="11" fill="#6a6a7a">deploy: docker . linux . nginx . vercel</text>
+  <text x="60" y="258" font-family="monospace" font-size="11" fill="#c9a84c">$ _</text>
 </svg>
