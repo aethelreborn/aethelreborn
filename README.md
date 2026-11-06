@@ -6,6 +6,8 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=c9a84c&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Building+web+systems+that+scale;Automating+everything+I+can;Build.+Learn.+Ship.)
 
+<img src="assets/boot.gif" alt="Aethel terminal boot animation" width="640"/>
+
 ---
 
 [![Website](https://img.shields.io/badge/Website-aethelreborn.dpdns.org-c9a84c?style=for-the-badge&logo=googlechrome&logoColor=black)](https://aethelreborn.dpdns.org)
