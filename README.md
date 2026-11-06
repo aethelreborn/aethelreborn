@@ -1,6 +1,6 @@
 <div align="center">
 
-# AETH<br> REBORN
+# AETHEL<br> REBORN
 
 ---
 
